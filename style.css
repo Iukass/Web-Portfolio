@@ -1,0 +1,10 @@
+body {
+    background-color: lightblue;
+}
+
+.navbar-buttons {
+    text-align: right;
+    margin-right: 10%;
+    word-spacing: 20px;
+    
+}
