@@ -5,6 +5,9 @@ body {
 .navbar-buttons {
     text-align: right;
     margin-right: 10%;
-    word-spacing: 20px;
-    
+    word-spacing: 30px;
+}
+
+.header-button {
+    padding: 20px 30px;
 }
