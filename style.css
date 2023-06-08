@@ -1,19 +1,71 @@
 
-
+/*
+https://avatars.githubusercontent.com/u/133021593?s=40&v=4
+*/
 
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     background-color: #ececec;
     color: #272727;
     font-family: 'Lexend';
     
+    
 }
 
 .header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    
+
+    color: #d4d4d4;
     background-color: #404258 ;
+    height: 5%;
+    word-spacing: 30px;
+    padding: 10px 16px;
+}
+
+.header-content {
+    margin-left: 1%;
+    justify-content: flex-start;
+}
+
+
+.header-left{ 
+    margin: inherit;
+    border: inherit;
+    padding: inherit;
+    flex: inherit;
+    justify-content: inherit;
+
+    display: flex;
+    
+    align-items: center;
+    margin-left: 10px;
 
 }
+
+.header-right {
+    margin: inherit;
+    border: inherit;
+    padding: inherit;
+    flex: inherit;
+    justify-content: inherit;
+    
+
+    display: flex;
+    
+    align-items: center;
+    
+
+}
+
+
+
+
 
 /*
 #404258     DARK
@@ -22,36 +74,8 @@ body {
 #6B728E     LIGHT 
 */
 
-.navbar-buttons {
-    list-style-type: disc;
-    list-style: none;
-    text-align: right;
-    margin-right: 10%;
-    word-spacing: 30px;
-}
 
-.header-button {
-    font-weight: inherit;
-    font-family: inherit;
-    padding: 20px 30px;
-    background-color: #404258 ;
-    color: rgb(255, 255, 255);
-    box-shadow: none;
-    border: 0px solid #404258;
-    letter-spacing: 2px;
-}
-.header-button:hover span {
-    display:none
-}
-.header-button:hover:before {
-    font-size: 1.5px;
-}
 
-.header-button:hover {
-    background-color: #474E68 ;
-    color: #d4d4d4;
-    box-shadow: none;
-}
 
 
 .content {
